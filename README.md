@@ -47,7 +47,7 @@ HashMap<String, Object> data;
 ApiClient apiClient = new ApiClient(userName, password);
 ```
 
-* Get CDN service reports (https://cdnsun.com/knowledgebase/api/documentation/res/com.cdn/act/reports)
+* Get CDN service reports (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/reports)
 
 ```
 data = new HashMap<String, Object>();
@@ -57,7 +57,7 @@ result = apiClient.get("cdns/" + id + "/reports/", data);
 Util.printMapFriendly(result);
 ```
 
-* Purge CDN service content (https://cdnsun.com/knowledgebase/api/documentation/res/com.cdn/act/purge)
+* Purge CDN service content (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/purge)
 
 ```
 data = new HashMap<String, Object>();
